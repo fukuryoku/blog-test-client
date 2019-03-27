@@ -1,0 +1,12 @@
+{
+    "root": "build/",
+    "routes": {
+      "/**": "index.html"
+    },
+    "proxies": {
+      "/api": {
+        "origin": "https://blog-test--server.herokuapp.com/api"
+      }
+    }
+  }
+  
